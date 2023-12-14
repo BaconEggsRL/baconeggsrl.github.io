@@ -17,7 +17,18 @@
 		</p>
 		
 		<p><b>2016</b></p>
-		<p>jcalc -- Java, Swing GUI -- Not really a game but a calculator utility written in java.</p>
+		<p><a href="calc.html">jcalc</a>
+		-- Java, Swing GUI -- Not really a game but a calculator utility written in java.</p>
+		<script src="https://cjrtnc.leaningtech.com/3.0rc2/cj3loader.js"></script>
+		<script>
+		  (async function () {
+			await cheerpjInit();
+			cheerpjCreateDisplay(800, 600);
+			await cheerpjRunJar("/app/java/calc.jar");
+		  })();
+		</script>
+		
+		
 		<p>BlockRunner -- Android Studio -- 2D (auto) side scroller game for Android. Developed at Hack OHI/O 2016.</p>		
 		
 		<p><b>2020-2021</b></p>
